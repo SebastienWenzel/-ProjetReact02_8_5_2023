@@ -1,10 +1,12 @@
-import './App.css';
+import { BrowserRouter } from 'react-router-dom';
+import RoutePage from './Pages/routepage';
+import './assets/sass/app.scss';
 
 function App() {
-  return (
-    <div className="App">
-    
-    </div>
+  return (  
+        <BrowserRouter>
+          <RoutePage/>
+        </BrowserRouter>
   );
 }
 

@@ -1,0 +1,8 @@
+export { default as Layout} from './layout'
+export { default as Home } from './Home'
+export { default as About } from './About'
+export { default as Models} from './Models'
+export { default as TestimonialsPage } from './TestimonialsPage'
+export { default as Team} from './Team'
+export { default as Contact } from './Contact'
+export { default as NotFound } from './Notfound'

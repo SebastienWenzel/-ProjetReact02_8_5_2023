@@ -1,51 +1,93 @@
-const datas = [
+import Golf6 from "../images/cars/golf6.jpg";
+import AudiA1 from "../images/cars/audia1.jpg";
+import Toyota from "../images/cars/toyotacamry.jpg";
+import Bmw320 from "../images/cars/bmw320.jpg";
+import Benz from "../images/cars/benz.jpg";
+import Passat from "../images/cars/passatcc.jpg";
 
-        {
-    "Voitures": [
+export const CAR_DATA = [
+  [
     {
-    "ID": 1,
-    "Modèle": "Renault Clio",
-    "Prix": 50,
-    "Transmission": "Manuelle",
-    "Rating": 4
+      name: "VW Golf 6",
+      price: "37",
+      img: Golf6,
+      model: "Golf 6",
+      mark: "Volkswagen",
+      year: "2008",
+      doors: "4/5",
+      air: "Yes",
+      transmission: "Manual",
+      fuel: "Diesel",
     },
+  ],
+  [
     {
-    "ID": 2,
-    "Modèle": "Volkswagen Golf",
-    "Prix": 65,
-    "Transmission": "Automatique",
-    "Rating": 3
+      name: "Audi A1 S-Line",
+      price: "45",
+      img: AudiA1,
+      model: "Audi",
+      mark: "A1",
+      year: "2012",
+      doors: "4/5",
+      air: "Yes",
+      transmission: "Manual",
+      fuel: "Gasoline",
     },
+  ],
+  [
     {
-    "ID": 3,
-    "Modèle": "Ford Focus",
-    "Prix": 55,
-    "Transmission": "Manuelle",
-    "Rating": 4
+      name: "Toyota Camry",
+      price: "30",
+      img: Toyota,
+      model: "Camry",
+      mark: "Toyota",
+      year: "2006",
+      doors: "4/5",
+      air: "Yes",
+      transmission: "Automatic",
+      fuel: "Hybrid",
     },
+  ],
+  [
     {
-    "ID": 4,
-    "Modèle": "Toyota Corolla",
-    "Prix": 60,
-    "Transmission": "Automatique",
-    "Rating": 5
+      name: "BMW 320 ModernLine",
+      price: "35",
+      img: Bmw320,
+      model: "320",
+      mark: "BMW",
+      year: "2012",
+      doors: "4/5",
+      air: "Yes",
+      transmission: "Manual",
+      fuel: "Diesel",
     },
+  ],
+  [
     {
-    "ID": 5,
-    "Modèle": "BMW 3 Series",
-    "Prix": 100,
-    "Transmission": "Automatique",
-    "Rating": 4
+      name: "Mercedes-Benz GLK",
+      price: "50",
+      img: Benz,
+      model: "Benz GLK",
+      mark: "Mercedes",
+      year: "2006",
+      doors: "4/5",
+      air: "Yes",
+      transmission: "Manual",
+      fuel: "Diesel",
     },
+  ],
+  [
     {
-    "ID": 6,
-    "Modèle": "Mercedes-Benz E-Class",
-    "Prix": 150,
-    "Transmission": "Automatique",
-    "Rating": 5
-    }
-    ]
-    }
-]
-
-export default datas;
+      name: "VW Passat CC",
+      price: "25",
+      img: Passat,
+      model: "Passat CC",
+      mark: "Volkswagen",
+      year: "2008",
+      doors: "4/5",
+      air: "Yes",
+      transmission: "Automatic",
+      fuel: "Gasoline",
+    },
+  ],
+];
